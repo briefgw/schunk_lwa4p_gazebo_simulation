@@ -1,0 +1,8 @@
+prefix=/opt/ros/kinetic
+
+Name: tf2_eigen
+Description: Description of tf2_eigen
+Version: 0.5.13
+Cflags: -I/opt/ros/kinetic/include -I/usr/include
+Libs: -L/opt/ros/kinetic/lib 
+Requires: 

@@ -1,0 +1,25 @@
+(cl:defpackage dynamic_reconfigure-msg
+  (:use )
+  (:export
+   "<DOUBLEPARAMETER>"
+   "DOUBLEPARAMETER"
+   "<CONFIG>"
+   "CONFIG"
+   "<GROUPSTATE>"
+   "GROUPSTATE"
+   "<STRPARAMETER>"
+   "STRPARAMETER"
+   "<BOOLPARAMETER>"
+   "BOOLPARAMETER"
+   "<PARAMDESCRIPTION>"
+   "PARAMDESCRIPTION"
+   "<GROUP>"
+   "GROUP"
+   "<CONFIGDESCRIPTION>"
+   "CONFIGDESCRIPTION"
+   "<SENSORLEVELS>"
+   "SENSORLEVELS"
+   "<INTPARAMETER>"
+   "INTPARAMETER"
+  ))
+

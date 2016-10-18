@@ -1,0 +1,8 @@
+prefix=/opt/ros/kinetic
+
+Name: controller_manager
+Description: Description of controller_manager
+Version: 0.11.0
+Cflags: -I/opt/ros/kinetic/include
+Libs: -L/opt/ros/kinetic/lib -lcontroller_manager
+Requires: controller_interface controller_manager_msgs hardware_interface realtime_tools pluginlib

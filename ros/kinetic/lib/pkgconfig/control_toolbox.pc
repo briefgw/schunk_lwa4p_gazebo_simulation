@@ -1,0 +1,8 @@
+prefix=/opt/ros/kinetic
+
+Name: control_toolbox
+Description: Description of control_toolbox
+Version: 1.14.0
+Cflags: -I/opt/ros/kinetic/include -I/usr/include
+Libs: -L/opt/ros/kinetic/lib -lcontrol_toolbox -l:/usr/lib/x86_64-linux-gnu/libtinyxml.so
+Requires: roscpp dynamic_reconfigure realtime_tools message_runtime std_msgs

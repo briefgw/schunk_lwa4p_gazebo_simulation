@@ -1,0 +1,8 @@
+prefix=/opt/ros/kinetic
+
+Name: gennodejs
+Description: Description of gennodejs
+Version: 1.0.3
+Cflags: 
+Libs: -L/opt/ros/kinetic/lib 
+Requires: genmsg

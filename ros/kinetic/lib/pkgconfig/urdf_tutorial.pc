@@ -1,0 +1,8 @@
+prefix=/opt/ros/kinetic
+
+Name: urdf_tutorial
+Description: Description of urdf_tutorial
+Version: 0.2.4
+Cflags: 
+Libs: -L/opt/ros/kinetic/lib 
+Requires: 
