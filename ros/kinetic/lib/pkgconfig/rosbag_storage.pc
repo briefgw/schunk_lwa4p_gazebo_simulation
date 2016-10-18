@@ -1,8 +1,0 @@
-prefix=/opt/ros/kinetic
-
-Name: rosbag_storage
-Description: Description of rosbag_storage
-Version: 1.12.0
-Cflags: -I/opt/ros/kinetic/include -I/usr/include
-Libs: -L/opt/ros/kinetic/lib -lrosbag_storage -l:/usr/lib/x86_64-linux-gnu/libconsole_bridge.so -l:/usr/lib/x86_64-linux-gnu/libboost_date_time.so -l:/usr/lib/x86_64-linux-gnu/libboost_filesystem.so -l:/usr/lib/x86_64-linux-gnu/libboost_program_options.so -l:/usr/lib/x86_64-linux-gnu/libboost_regex.so
-Requires: roslz4

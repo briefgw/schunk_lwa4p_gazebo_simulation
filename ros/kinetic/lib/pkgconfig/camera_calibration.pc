@@ -1,8 +1,0 @@
-prefix=/opt/ros/kinetic
-
-Name: camera_calibration
-Description: Description of camera_calibration
-Version: 1.12.16
-Cflags: 
-Libs: -L/opt/ros/kinetic/lib 
-Requires: 

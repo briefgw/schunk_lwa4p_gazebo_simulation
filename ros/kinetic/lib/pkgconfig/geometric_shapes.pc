@@ -1,8 +1,0 @@
-prefix=/opt/ros/kinetic
-
-Name: geometric_shapes
-Description: Description of geometric_shapes
-Version: 0.4.4
-Cflags: -I/opt/ros/kinetic/include -I/usr/include/eigen3 -I/usr/include
-Libs: -L/opt/ros/kinetic/lib -lgeometric_shapes -l:/opt/ros/kinetic/lib/liboctomap.so -l:/opt/ros/kinetic/lib/liboctomath.so -l:/usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-Requires: shape_msgs random_numbers eigen_stl_containers visualization_msgs

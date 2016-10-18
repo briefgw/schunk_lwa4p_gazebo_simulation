@@ -1,8 +1,0 @@
-prefix=/opt/ros/kinetic
-
-Name: qt_gui_py_common
-Description: Description of qt_gui_py_common
-Version: 0.3.2
-Cflags: 
-Libs: -L/opt/ros/kinetic/lib 
-Requires: 

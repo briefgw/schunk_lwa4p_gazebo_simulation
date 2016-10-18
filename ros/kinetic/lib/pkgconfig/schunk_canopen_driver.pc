@@ -1,8 +1,0 @@
-prefix=/opt/ros/kinetic
-
-Name: schunk_canopen_driver
-Description: Description of schunk_canopen_driver
-Version: 1.0.6
-Cflags: -I/opt/ros/kinetic/include
-Libs: -L/opt/ros/kinetic/lib 
-Requires: actionlib controller_manager hardware_interface joint_limits_interface message_runtime roscpp std_srvs

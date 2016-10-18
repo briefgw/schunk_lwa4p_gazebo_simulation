@@ -1,8 +1,0 @@
-prefix=/opt/ros/kinetic
-
-Name: imu_sensor_controller
-Description: Description of imu_sensor_controller
-Version: 0.11.1
-Cflags: -I/opt/ros/kinetic/include
-Libs: -L/opt/ros/kinetic/lib -limu_sensor_controller
-Requires: controller_interface hardware_interface sensor_msgs realtime_tools

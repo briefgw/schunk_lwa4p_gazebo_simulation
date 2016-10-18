@@ -1,8 +1,0 @@
-prefix=/opt/ros/kinetic
-
-Name: camera_info_manager
-Description: Description of camera_info_manager
-Version: 1.11.10
-Cflags: -I/opt/ros/kinetic/include -I/usr/include
-Libs: -L/opt/ros/kinetic/lib -lcamera_info_manager
-Requires: roscpp sensor_msgs

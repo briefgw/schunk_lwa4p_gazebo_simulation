@@ -1,8 +1,0 @@
-prefix=/opt/ros/kinetic
-
-Name: joint_limits_interface
-Description: Description of joint_limits_interface
-Version: 0.11.0
-Cflags: -I/opt/ros/kinetic/include -I/usr/include
-Libs: -L/opt/ros/kinetic/lib -l:/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so -l:/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so -l:/usr/lib/x86_64-linux-gnu/liburdfdom_model.so -l:/usr/lib/x86_64-linux-gnu/liburdfdom_world.so -l:/usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-Requires: roscpp hardware_interface

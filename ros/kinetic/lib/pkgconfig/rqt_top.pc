@@ -1,8 +1,0 @@
-prefix=/opt/ros/kinetic
-
-Name: rqt_top
-Description: Description of rqt_top
-Version: 0.4.1
-Cflags: 
-Libs: -L/opt/ros/kinetic/lib 
-Requires: 

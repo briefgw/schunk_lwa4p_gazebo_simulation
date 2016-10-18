@@ -1,8 +1,0 @@
-prefix=/opt/ros/kinetic
-
-Name: visualization_marker_tutorials
-Description: Description of visualization_marker_tutorials
-Version: 0.10.1
-Cflags: 
-Libs: -L/opt/ros/kinetic/lib 
-Requires: roscpp visualization_msgs

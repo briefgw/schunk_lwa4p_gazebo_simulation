@@ -1,8 +1,0 @@
-prefix=/opt/ros/kinetic
-
-Name: urdf_parser_plugin
-Description: Description of urdf_parser_plugin
-Version: 1.12.2
-Cflags: -I/opt/ros/kinetic/include -I/usr/include
-Libs: -L/opt/ros/kinetic/lib 
-Requires: 
