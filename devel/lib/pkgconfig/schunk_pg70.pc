@@ -1,0 +1,8 @@
+prefix=/home/workstation3/catkin_ws/devel
+
+Name: schunk_pg70
+Description: Description of schunk_pg70
+Version: 0.5.0
+Cflags: 
+Libs: -L/home/workstation3/catkin_ws/devel/lib 
+Requires: 

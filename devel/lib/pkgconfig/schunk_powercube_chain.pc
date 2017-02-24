@@ -1,0 +1,8 @@
+prefix=/home/workstation3/catkin_ws/devel
+
+Name: schunk_powercube_chain
+Description: Description of schunk_powercube_chain
+Version: 0.6.8
+Cflags: 
+Libs: -L/home/workstation3/catkin_ws/devel/lib 
+Requires: 
