@@ -1,12 +1,10 @@
 BRIEF: Biological Robotic Imaging Experimentation Framework
 ##########################################################################
 
-HTTPie (pronounced *aitch-tee-tee-pie*) is a command line HTTP client.
-Its goal is to make CLI interaction with web services as human-friendly
-as possible. It provides a simple ``http`` command that allows for sending
-arbitrary HTTP requests using a simple and natural syntax, and displays
-colorized output. HTTPie can be used for testing, debugging, and
-generally interacting with HTTP servers.
+The Biological Robotic Imaging Experimentation Framework (BRIEF) is a `ROS <http://www.ros.org/>`_ based robot,
+tailored to conduct biological imaging and manipulation experiments over extended periods of time.
+BRIEF combines a `Schunk Lightweight Arm LWA 4P  <http://www.schunk-modular-robotics.com/en/home/products/powerball-lightweight-arm-lwa-4p.html>`_
+with an imaging table and arm constructed in house at The George Washington University `SEAS <https://www.seas.gwu.edu/>`_.
 
 
 .. class:: no-web
@@ -32,20 +30,10 @@ generally interacting with HTTP servers.
 Main features
 =============
 
-* Expressive and intuitive syntax
-* Formatted and colorized terminal output
-* Built-in JSON support
-* Forms and file uploads
-* HTTPS, proxies, and authentication
-* Arbitrary request data
-* Custom headers
-* Persistent sessions
-* Wget-like downloads
-* Python 2.6, 2.7 and 3.x support
-* Linux, Mac OS X and Windows support
-* Plugins
-* Documentation
-* Test coverage
+* Robotic Manipulation of Biological Samples
+* Point Cloud Imaging
+* Point Cloud to Mesh Conversion (future)
+
 
 
 Installation
@@ -1634,7 +1622,7 @@ Artwork
 See `claudiatd/httpie-artwork`_
 
 
-Licence
+License
 -------
 
 BSD-3-Clause: `LICENSE <https://github.com/jakubroztocil/httpie/blob/master/LICENSE>`_.
@@ -1644,8 +1632,8 @@ BSD-3-Clause: `LICENSE <https://github.com/jakubroztocil/httpie/blob/master/LICE
 Authors
 -------
 
-`Jakub Roztocil`_  (`@jakubroztocil`_) created HTTPie and `these fine people`_
-have contributed.
+Joseph Crandall and Karl Preisner created BRIEF for their
+George Washington University Senior Design Project
 
 
 .. _pip: https://pip.pypa.io/en/stable/installing/
