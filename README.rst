@@ -11,7 +11,7 @@ generally interacting with HTTP servers.
 
 .. class:: no-web
 
-    .. image:: https://raw.githubusercontent.com/jakubroztocil/httpie/master/httpie.png
+    .. image:: https://github.com/gw-cs-sd/sd-2017-BRIEF/blob/master/brief.jpg
         :alt: HTTPie compared to cURL
         :width: 100%
         :align: center
