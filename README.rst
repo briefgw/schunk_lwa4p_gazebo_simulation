@@ -4,7 +4,8 @@ BRIEF: Biological Robotic Imaging Experimentation Framework
 The Biological Robotic Imaging Experimentation Framework (BRIEF) is a `ROS <http://www.ros.org/>`_ based robot,
 tailored to conduct biological imaging and manipulation experiments over extended periods of time.
 BRIEF combines a `Schunk Lightweight Arm LWA 4P  <http://www.schunk-modular-robotics.com/en/home/products/powerball-lightweight-arm-lwa-4p.html>`_
-with an imaging table and arm constructed in house at The George Washington University `SEAS <https://www.seas.gwu.edu/>`_.
+with an imaging table and arm constructed in house at The George Washington University `SEAS <https://www.seas.gwu.edu/>`_
+for the `Department of Computer Science <https://www.cs.seas.gwu.edu/>`_ Senior Design Project.
 
 
 .. class:: no-web
@@ -39,6 +40,10 @@ Main features
 Installation
 ============
 
+Prerequisites
+-------------
+
+hello
 
 macOS
 -----
