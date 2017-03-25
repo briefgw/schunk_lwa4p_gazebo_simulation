@@ -1,4 +1,5 @@
-HTTPie: a CLI, cURL-like tool for humans
+BRIEF: an opensource biological robotic imaging experimentation framework
+
 ########################################
 
 HTTPie (pronounced *aitch-tee-tee-pie*) is a command line HTTP client.
@@ -1675,4 +1676,3 @@ have contributed.
 .. |gitter| image:: https://img.shields.io/gitter/room/jakubroztocil/httpie.svg?style=flat-square
     :target: https://gitter.im/jakubroztocil/httpie
     :alt: Chat on Gitter
-
