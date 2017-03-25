@@ -1,6 +1,5 @@
-BRIEF: an opensource biological robotic imaging experimentation framework
-
-########################################
+BRIEF: Biological Robotic Imaging Experimentation Framework
+##########################################################################
 
 HTTPie (pronounced *aitch-tee-tee-pie*) is a command line HTTP client.
 Its goal is to make CLI interaction with web services as human-friendly
