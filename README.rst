@@ -106,6 +106,12 @@ Vim
 
     $ sudo apt-get install vim
 
+Janus
+
+    https://github.com/carlhuda/janus
+
+    https://gist.github.com/dustinsmith1024/1686977
+
 Midnight commander
 
 .. code-block:: bash
@@ -114,9 +120,7 @@ Midnight commander
 
 
 
-Janus
-https://github.com/carlhuda/janus
-https://gist.github.com/dustinsmith1024/1686977
+
 
 
 
@@ -135,27 +139,38 @@ Open terminal and start roscore
 Useful Links
 ============
 Ubuntu 14.04.5 Desktop (64-bit)
-https://www.ubuntu.com/download/alternative-downloads
+
+  https://www.ubuntu.com/download/alternative-downloads
 
 ROS Indigo
-http://wiki.ros.org/indigo/Installation/Ubuntu
 
-Shutdown VM, increase Ram to 4096 MB
+  http://wiki.ros.org/indigo/Installation/Ubuntu
 
 Catkin Tutorials
-http://wiki.ros.org/catkin/Tutorials
-	http://wiki.ros.org/catkin/Tutorials/create_a_workspace
+
+  http://wiki.ros.org/catkin/Tutorials
+
+  http://wiki.ros.org/catkin/Tutorials/create_a_workspace
 
 Install Gazebo
-http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install
+
+  http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install
 
 Build a Ros Package
-http://wiki.ros.org/ROS/Tutorials/BuildingPackages
+
+  http://wiki.ros.org/ROS/Tutorials/BuildingPackages
 
 For a Gazebo Simulation
-http://gazebosim.org/tutorials?tut=ros_wrapper_versions&cat=connect_ros
-http://gazebosim.org/tutorials?tut=install&cat=install
-http://gazebosim.org/tutorials?tut=ros_wrapper_versions
+
+  http://gazebosim.org/tutorials?tut=ros_wrapper_versions&cat=connect_ros
+
+  http://gazebosim.org/tutorials?tut=install&cat=install
+
+  http://gazebosim.org/tutorials?tut=ros_wrapper_versions
+
+Install gazebo via ROS
+
+  http://gazebosim.org/tutorials?tut=ros_installing
 
 
 License
