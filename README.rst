@@ -92,11 +92,14 @@ Then make the catkin workspace
     $ catkin_make
 
 
-Gazebo
-------
-Follow the `Gazebo  <http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install>`_
-installation process.
+Usage
+=====
+Open terminal and start roscore
 
+
+.. code-block:: bash
+
+    $ roscore
 
 Tools That Will Make Your Life Easier
 =====================================
@@ -118,23 +121,6 @@ Midnight commander
 
     $ sudo apt-get install midnight commander
 
-
-
-
-
-
-
-Simulation
-==========
-
-Usage
-=====
-Open terminal and start roscore
-
-
-.. code-block:: bash
-
-    $ roscore
 
 Useful Links
 ============
@@ -174,14 +160,14 @@ Install gazebo via ROS
 
 
 License
--------
+============
 
 BSD-3-Clause: `LICENSE <https://github.com/jakubroztocil/httpie/blob/master/LICENSE>`_.
 
 
 
 Authors
--------
+============
 
 Joseph Crandall and Karl Preisner created BRIEF for their
 George Washington University Senior Design Project
