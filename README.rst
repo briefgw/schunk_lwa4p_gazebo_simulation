@@ -27,7 +27,7 @@ for a `Department of Computer Science <https://www.cs.seas.gwu.edu/>`_ Senior De
 
 
 
-Main features
+Main Features
 =============
 
 * Robotic Manipulation of Biological Samples
@@ -53,12 +53,37 @@ Bootable USB
 ------------
 Create a `Bootable USB <https://www.ubuntu.com/download/desktop/create-a-usb-stick-on-ubuntu/>`_
 with `Ubuntu 14.04.5 Desktop (64-bit)  <https://www.ubuntu.com/download/alternative-downloads>`_
-and set up your new operating system on the Dell OptiPlex 990 Desktop.
+and set up your new operating system on the Dell OptiPlex 990 Desktop. Configure the
+Ubuntu 14.04.5 Desktop to your specifications. We sugguest Tools That Will Make Your Life Easier in this README.
 
-ROS
-------------
+ROS and Gazebo
+--------------
 Open Terminal and follow the `ROS Indigo  <http://wiki.ros.org/indigo/Installation/Ubuntu>`_
-installation process.
+installation process. If sucessful you should be able to run roscore.
+
+.. code-block:: bash
+
+    $ roscore
+
+Install Gazebo and test it.
+
+.. code-block:: bash
+
+    $ curl -ssL http://get.gazebosim.org | sh
+    $ gazebo
+
+
+Create a catkin workspace directory, enter the catkin workspace, install git, and git clone the master branch of the BRIEF repository.
+Then make the catkin workspace
+
+.. code-block:: bash
+
+    $ mkdir -p ~/catkin_ws
+    $ cd ~/catkin_ws/
+    $ git init
+    $ git clone https://github.com/gw-cs-sd/sd-2017-BRIEF.git
+    $ catkin_make
+
 
 Gazebo
 ------
