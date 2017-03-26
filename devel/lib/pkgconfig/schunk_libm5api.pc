@@ -1,0 +1,8 @@
+prefix=/home/workstation3/catkin_ws/devel
+
+Name: schunk_libm5api
+Description: Description of schunk_libm5api
+Version: 0.6.8
+Cflags: -I/home/workstation3/catkin_ws/src/schunk_modular_robotics/schunk_libm5api/include
+Libs: -L/home/workstation3/catkin_ws/devel/lib -lm5api
+Requires: libntcan libpcan
