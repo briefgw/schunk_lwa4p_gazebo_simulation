@@ -1,4 +1,4 @@
-guaranteerecommendBRIEF: Biological Robotic Imaging Experimentation Framework
+BRIEF: Biological Robotic Imaging Experimentation Framework
 ##########################################################################
 
 The Biological Robotic Imaging Experimentation Framework (BRIEF) is a `ROS <http://www.ros.org/>`_ based robot,
