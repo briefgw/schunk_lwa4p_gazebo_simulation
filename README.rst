@@ -1,12 +1,11 @@
-BRIEF: Biological Robotic Imaging Experimentation Framework
+guaranteerecommendBRIEF: Biological Robotic Imaging Experimentation Framework
 ##########################################################################
 
 The Biological Robotic Imaging Experimentation Framework (BRIEF) is a `ROS <http://www.ros.org/>`_ based robot,
 tailored to conduct biological imaging and manipulation experiments over extended periods of time.
 BRIEF combines a `Schunk Lightweight Arm LWA 4P  <http://www.schunk-modular-robotics.com/en/home/products/powerball-lightweight-arm-lwa-4p.html>`_
 with an imaging table and arm constructed in house at The George Washington University `SEAS <https://www.seas.gwu.edu/>`_
-for the `Department of Computer Science <https://www.cs.seas.gwu.edu/>`_ Senior Design Project.
-
+for a `Department of Computer Science <https://www.cs.seas.gwu.edu/>`_ Senior Design Project.
 
 .. class:: no-web
 
@@ -35,15 +34,37 @@ Main features
 * Point Cloud Imaging
 * Point Cloud to Mesh Conversion (future)
 
-
+A Word of Caution
+=================
+ROS based projects are heavily dependent on specific computer hardware,
+operating system, and ROS version. Although it is tempting to use a virtual machine,
+we have found this creates difficulties. Therefore, in order to guarantee that
+the installation process works properly we highly recommend that you use the
+identical configuration of components we suggest in Installation.
 
 Installation
 ============
 
-Prerequisites
--------------
+Hardware
+--------
+Acquire a Dell OptiPlex 990 Desktop.
 
-hello
+Bootable USB
+------------
+Create a `Bootable USB <https://www.ubuntu.com/download/desktop/create-a-usb-stick-on-ubuntu/>`_
+with `Ubuntu 14.04.5 Desktop (64-bit)  <https://www.ubuntu.com/download/alternative-downloads>`_
+and set up your new operating system on the Dell OptiPlex 990 Desktop.
+
+ROS
+------------
+Open Terminal and follow the `ROS Indigo  <http://wiki.ros.org/indigo/Installation/Ubuntu>`_
+installation process.
+
+Gazebo
+------
+Follow the `Gazebo  <http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install>`_
+installation process.
+
 
 macOS
 -----
@@ -148,6 +169,9 @@ with the ``-dev`` suffix, for example:
 
     $ http --version
     1.0.0-dev
+
+Tools That Will Make Your Life Easier
+=====================================
 
 
 Usage
