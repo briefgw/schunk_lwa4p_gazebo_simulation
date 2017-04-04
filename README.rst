@@ -76,7 +76,8 @@ Install Gazebo ROS Plugins.
     $ sudo apt-get install ros-indigo-gazebo-ros-pkgs ros-indigo-gazebo-ros-control
 
 
-Create a catkin workspace directory, enter the catkin workspace, install git, and git clone the master branch of the BRIEF repository.
+Install git, and git clone the master branch of the BRIEF repository.
+Rename the repository as catkin workspace directory, enter the catkin workspace,
 Then make the catkin workspace
 
 .. code-block:: bash
@@ -88,16 +89,71 @@ Then make the catkin workspace
     $ git clone https://github.com/gw-cs-sd/sd-2017-BRIEF.git
     $ catkin_make
 
+Source
+======
+
+ROS
+---
+In order to use ROS commands in your terminal you need to source your ROS enviorment.
+We will use `Vim  <https://vim-adventures.com/>`_ to do this.
+
+.. code-block:: bash
+
+  $ vim ~/.bashrc
+
+Go to the bottom of the file and copy following
+
+.. code-block:: bash
+
+  source /opt/ros/indigo/setup.bash
+
+catkin_ws
+---------
+In order to use ROS commands in your terminal for code you develop in you catkin_ws you need to source your catkin_ws.
+We will use Vim once again.
+
+.. code-block:: bash
+
+    $ vim ~/.bashrc
+
+
+Go to the bottom of the file and copy following, but fill in Path-To-Directory with the path
+
+.. code-block:: bash
+
+  source Path-To-Directory/catkin_ws/devel/setup.bash
+
 
 Usage
 =====
 Open terminal and start roscore
 
-
 .. code-block:: bash
 
     $ roscore
 
+Simulation
+----------
+Open another terminal tab. Navigate to your catkin_ws.
+
+.. code-block:: bash
+
+  $ cd Path-To-Directory/catkin_ws
+
+Execute the Launch file for the Schunk LWA 4P
+
+.. code-block:: bash
+
+  $ roslaunch schunk_lwa4p sim.launch
+
+You will notice that you are able to execute launch files from any place in your OS once the catkin_ws has been sourced.
+This is just a barebones example to get you started.
+To be able to make a meaningful contribution to this project you must
+familiarize yourself with `ROS  <http://wiki.ros.org/ROS/Tutorials/>`_
+as well as `Gazebo  <http://gazebosim.org/tutorials/>`_ .
+
+Control
+-------
 
 Remote Desktop
 ===============
@@ -201,8 +257,6 @@ License
 ============
 
 BSD-3-Clause: `LICENSE <https://github.com/gw-cs-sd/sd-2017-BRIEF-Crandall/blob/master/LICENSE>`_.
-
-
 
 Authors
 ============
