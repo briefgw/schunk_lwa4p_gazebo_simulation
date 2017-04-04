@@ -17,9 +17,6 @@ for a `Department of Computer Science <https://www.cs.seas.gwu.edu/>`_ Senior De
 
 .. class:: no-web no-pdf
 
-|pypi| |unix_build| |windows_build| |coverage| |gitter|
-
-
 
 .. contents::
 
@@ -54,7 +51,7 @@ Bootable USB
 Create a `Bootable USB <https://www.ubuntu.com/download/desktop/create-a-usb-stick-on-ubuntu/>`_
 with `Ubuntu 14.04.5 Desktop (64-bit)  <https://www.ubuntu.com/download/alternative-downloads>`_
 and set up your new operating system on the Dell OptiPlex 990 Desktop. Configure the
-Ubuntu 14.04.5 Desktop to your specifications. We sugguest Tools That Will Make Your Life Easier in this README.
+Ubuntu 14.04.5 Desktop to your specifications. We suggest Tools That Will Make Your Life Easier in this README.
 
 ROS and Gazebo
 --------------
@@ -100,6 +97,47 @@ Open terminal and start roscore
 .. code-block:: bash
 
     $ roscore
+
+
+Remote Desktop
+===============
+This project is far easier to develop if the code to run the robot is centered on a single computer.
+However this is not recommended for a programmer who wishes to work on the project outside of the lab.
+To rectify this situation we recommend using a remote desktop.
+
+Desktop
+-------
+We recommend running a virtual machine on your computer.
+You can use `vmware <https://http://www.vmware.com/>`_ to create an ubuntu virtual machine on your computer.
+Install `Ubuntu 14.04.5 Desktop (64-bit)  <https://www.ubuntu.com/download/alternative-downloads>`_ on this virtual machine.
+
+Once you have the virtual machine running install remmina
+
+.. code-block:: bash
+
+    $ sudo apt-get install remmina
+
+Once Installed run remmina
+
+.. code-block:: bash
+
+    $ remmina
+
+Click the green plus to create a new remote desktop file.
+Name the connection, and choose VNC-Virtual Network Computing.
+Now go to the ubuntu machine connected to BRIEF and do two things.
+1. `Share your desktop <https://help.ubuntu.com/stable/ubuntu-help/sharing-desktop.html/>`_ on the BRIEF machine
+2.  Get the IP address of the BRIEF machine
+
+.. code-block:: bash
+
+    $ ifconfig -a
+
+Take not of the BRIEF inet addr:###.##.##.### and then go back to your virtual machine and enter the IP into the remmina server field.
+If you fill in the username and password of the BREIF machine in remmina on your virtual machine you will not have to log into the BRIEF machine every time you make the connection.
+Finally when you first try to access the BRIEF machine over the VNC from your vm ubuntu the BRIEF machine will send a popup asking if a remote machine can view the desktop.
+Click yes
+
 
 Tools That Will Make Your Life Easier
 =====================================
@@ -171,32 +209,3 @@ Authors
 
 Joseph Crandall and Karl Preisner created BRIEF for their
 George Washington University Senior Design Project
-
-
-.. _pip: https://pip.pypa.io/en/stable/installing/
-.. _Github API: http://developer.github.com/v3/issues/comments/#create-a-comment
-.. _these fine people: https://github.com/jakubroztocil/httpie/contributors
-.. _Jakub Roztocil: http://roztocil.co
-.. _@jakubroztocil: https://twitter.com/jakubroztocil
-.. _claudiatd/httpie-artwork: https://github.com/claudiatd/httpie-artwork
-
-
-.. |pypi| image:: https://img.shields.io/pypi/v/httpie.svg?style=flat-square&label=latest%20stable%20version
-    :target: https://pypi.python.org/pypi/httpie
-    :alt: Latest version released on PyPi
-
-.. |coverage| image:: https://img.shields.io/coveralls/jakubroztocil/httpie/master.svg?style=flat-square&label=coverage
-    :target: https://coveralls.io/r/jakubroztocil/httpie?branch=master
-    :alt: Test coverage
-
-.. |unix_build| image:: https://img.shields.io/travis/jakubroztocil/httpie/master.svg?style=flat-square&label=unix%20build
-    :target: http://travis-ci.org/jakubroztocil/httpie
-    :alt: Build status of the master branch on Mac/Linux
-
-.. |windows_build|  image:: https://img.shields.io/appveyor/ci/jkbrzt/httpie.svg?style=flat-square&label=windows%20build
-    :target: https://ci.appveyor.com/project/jkbrzt/httpie
-    :alt: Build status of the master branch on Windows
-
-.. |gitter| image:: https://img.shields.io/gitter/room/jakubroztocil/httpie.svg?style=flat-square
-    :target: https://gitter.im/jakubroztocil/httpie
-    :alt: Chat on Gitter
