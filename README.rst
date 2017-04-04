@@ -200,7 +200,7 @@ Install gazebo via ROS
 License
 ============
 
-BSD-3-Clause: `LICENSE <https://github.com/jakubroztocil/httpie/blob/master/LICENSE>`_.
+BSD-3-Clause: `LICENSE <https://github.com/gw-cs-sd/sd-2017-BRIEF-Crandall/blob/master/LICENSE>`_.
 
 
 
