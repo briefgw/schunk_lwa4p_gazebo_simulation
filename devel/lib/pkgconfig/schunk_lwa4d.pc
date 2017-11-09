@@ -1,8 +1,0 @@
-prefix=/home/workstation3/catkin_ws/devel
-
-Name: schunk_lwa4d
-Description: Description of schunk_lwa4d
-Version: 0.5.0
-Cflags: 
-Libs: -L/home/workstation3/catkin_ws/devel/lib 
-Requires: 

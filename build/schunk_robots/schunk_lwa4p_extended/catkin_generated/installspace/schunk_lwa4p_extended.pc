@@ -1,8 +1,0 @@
-prefix=/home/workstation3/catkin_ws/install
-
-Name: schunk_lwa4p_extended
-Description: Description of schunk_lwa4p_extended
-Version: 0.5.0
-Cflags: 
-Libs: -L/home/workstation3/catkin_ws/install/lib 
-Requires: 

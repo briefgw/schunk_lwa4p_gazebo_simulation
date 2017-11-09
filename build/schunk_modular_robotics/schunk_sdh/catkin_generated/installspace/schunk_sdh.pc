@@ -1,8 +1,0 @@
-prefix=/home/workstation3/catkin_ws/install
-
-Name: schunk_sdh
-Description: Description of schunk_sdh
-Version: 0.6.8
-Cflags: -I/home/workstation3/catkin_ws/install/include
-Libs: -L/home/workstation3/catkin_ws/install/lib 
-Requires: std_msgs message_runtime
